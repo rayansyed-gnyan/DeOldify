@@ -55,7 +55,7 @@ if not os.path.exists(model_path):
 colorizer = get_video_colorizer()
 
 # Parameters for video colorization
-input_video_path = 'grayscale_video2.mp4'
+input_video_path = 'grayscale_video3.mp4'
 
 print(f"Current working directory: {os.getcwd()}")
 full_video_path = os.path.abspath(input_video_path)

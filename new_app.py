@@ -99,13 +99,13 @@ elif option == "Video Colorizer":
             except Exception as e:
                 st.error(f"An error occurred: {e}")
 
-            col1, col2 = st.columns(2)
+            # col1, col2 = st.columns(2)
         
-            with col1:
-                st.video(uploaded_file, caption='Gray-scale Video', use_column_width=True)
+            # with col1:
+            #     st.video(uploaded_file, caption='Gray-scale Video', use_column_width=True)
         
-            with col2:
-                st.video(result_path_str, caption='Colorized Video', use_column_width=True)
+            # with col2:
+            #     st.video(result_path_str, caption='Colorized Video', use_column_width=True)
 
 
 # elif option == "Video Colorizer":
