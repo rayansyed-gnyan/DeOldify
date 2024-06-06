@@ -415,7 +415,7 @@ def get_artistic_video_colorizer(
     root_folder: Path = Path('./'),
     weights_name: str = 'ColorizeArtistic_gen',
     results_dir='result_images',
-    render_factor: int = 35
+    render_factor: int = 25
 ) -> VideoColorizer:
     learn = gen_inference_deep(root_folder=root_folder, weights_name=weights_name)
     filtr = MasterFilter([ColorizerFilter(learn=learn)], render_factor=render_factor)
